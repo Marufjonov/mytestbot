@@ -1,0 +1,26 @@
+.env
+config.py  # Agar tokenlarni shu faylda saqlasangiz
+*.log      # Log fayllari
+
+# Python virtual muhitlari
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# Python kesh fayllari
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE (Dasturlash muhiti) sozlamalari
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Ma'lumotlar bazasi (Agar mahalliy bazadan foydalansangiz)
+*.db
+*.sqlite3
